@@ -1,39 +1,44 @@
-# ##Vitalina Oleksiienko
+## Vitalina Oleksiienko
 
-###Contacts
+### Contacts
+
 vitalina_oleksienko@yahoo.com
 https://github.com/Vitalina-Oleksiienko
 https://www.linkedin.com/in/vitalina-oleksiienko
 Vitalina Oleksiienko#1329 discord
 
-###Summary
+### Summary
+
 My goal as a developer is to improve my knowledge and programming skills. I am responsible, purposeful person who wants to develop and do interesting tasks. I am persistently studying and ready to try my hand. I'm sure the desire to work and skills finding a common language with people will help unravel my skills and help me grow professionally.
 
-###Tech Skills
-*HTML, CSS, SASS, SCSS
-*GIT, GitHub
-*JavaScript
-*WebPack, Parcel
-*BEM, DOM, OOP
-*REST API
-*Vue.js
-*Nuxt.js
-*Figma
-*Jira
-*Bitbucket
-*React.js
-\*Node.js
+### Tech Skills
 
-###Soft Skills
-*Adaptability
-*Self-motivation
-*Responsible
-*Teamwork
-*Team management
-*Communication skills
-\*Time management
+- HTML, CSS, SASS, SCSS
+- GIT, GitHub
+- JavaScript
+- WebPack, Parcel
+- BEM, DOM, OOP
+- REST API
+- Vue.js
+- Nuxt.js
+- Figma
+- Jira
+- Bitbucket
+- React.js
+- Node.js
 
-##Code Examples
+### Soft Skills
+
+- Adaptability
+- Self-motivation
+- Responsible
+- Teamwork
+- Team management
+- Communication skills
+- Time management
+
+## Code Examples
+
 `
  const apartment = {
    imgUrl: "https://via.placeholder.com/640x480",
@@ -54,7 +59,7 @@ My goal as a developer is to improve my knowledge and programming skills. I am r
  apartment.location.city = "Kingston";
  console.log(apartment);`
 
-##Experience
+## Experience
 
 1. Project: IMAGE SEARCH
 
@@ -68,7 +73,8 @@ Link GitHub link, HTML5, CSS, SASS, BEM, JS.
 
 Individual Project, responsive landing page with information about Сovid-19.
 
-##Education
+## Education
+
 GoIT
 Full-Stack Developer
 February 2021 - February 2022
@@ -77,5 +83,6 @@ EASYSCHOOL
 I aftend private English classes
 March 2022 - until now
 
-##Languages
+## Languages
+
 English - Intermediate
