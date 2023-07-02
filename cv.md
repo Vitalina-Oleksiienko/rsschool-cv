@@ -3,8 +3,11 @@
 ### Contacts
 
 vitalina_oleksienko@yahoo.com
+
 https://github.com/Vitalina-Oleksiienko
+
 https://www.linkedin.com/in/vitalina-oleksiienko
+
 Vitalina Oleksiienko#1329 discord
 
 ### Summary
