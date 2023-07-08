@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header></header>
-<main></main>
-<aside></aside>
-<footer></footer>
+<body class="wrapper">
+<header class="container">
+    <div class="about-me-section">
+        <h1 class="about-me-name">Vitalina Oleksiienko</h1>
+        <h2 class="about-me-profession">Front-End Developer</h2>
+        <p class="about-me-discription">My goal as a developer is to improve my knowledge and programming skills. I am responsible, purposeful person who wants
+            to develop and do interesting tasks. I am persistently studying and ready to try my hand. I'm sure the desire to work and skills finding a common language with people will help unravel my skills and help me grow professionally.  </p>
+    </div>
+</header>
+<div class="main-container">
+    <main class="">
+    <div class="my-projects-section">
+        <h2 class="main-content-title">Project Experience</h2>
+            <ul class="my-projects-list">
+                      
+                <li class="my-projects-item">
+                    
+                    <p class="my-projects-item__text">
+                        <span class="my-projects-item__p">Project: </span> <span class="my-projects-item__name">Image search</span>
+                    </p>
+                    <p class="my-projects-item__text"> 
+                        <span class="my-projects-item__p"></span> 
+                        <a href="https://vitalina-oleksiienko.github.io/goit-js-hw-13-image-finder/" target="_blank" class="my-projects-link">Link,</a>
+                        <a href="https://github.com/Vitalina-Oleksiienko/goit-js-hw-13-image-finder" target="_blank" class="my-projects-link">GitHub link,</a>
+                        <span class="my-projects-link">HTML5, CSS, SASS, BEM, JS, Parcel, Handlebars, API. </span> 
+                    </p>
+                    <p class="my-projects-item__text"> 
+                        <span class="my-projects-item__p"></span>Image search site with information on the number of likes, views, comments and downloads.
+                    </p>
+                </li>
+
+                <li class="my-projects-item">
+                        
+                    <p class="my-projects-item__text"> 
+                        <span class="my-projects-item__p">Project:</span> <span class="my-projects-item__name">Corona</span> 
+                    </p>
+                    <p class="my-projects-item__text"> 
+                        <span class="my-projects-item__p"></span>  
+                        <a href="https://vitalina-oleksiienko.github.io/Corona/" target="_blank" class="my-projects-link">Link</a>
+                        <a href="https://github.com/Vitalina-Oleksiienko/Corona" target="_blank" class="my-projects-link">GitHub link,</a>
+                        <span class="my-projects-link">HTML5, CSS, SASS, BEM, JS.</span>
+                    </p>
+
+                    <p class="my-projects-item__text"> 
+                        <span class="my-projects-item__p"></span>Individual Project, responsive landing page with information about Сovid-19.
+                    </p>
+                </li> 
+            </ul>
+        
+            <div>
+                <h2>Code Examples</h2>
+                <code>
+                    const apartment = { imgUrl: "https://via.placeholder.com/640x480", descr: "Spacious apartment in the city center", rating: 4.7, price: 5000, tags: ["premium", "promoted", "top", "trusted"], owner: { name: "Henry Sibola", phone: "982-126-1588", email: "henry.carter@aptmail.com", }, }; apartment.area = 60; apartment.rooms = 3; apartment.location = {}; apartment.location.country = "Jamaica"; apartment.location.city = "Kingston"; console.log(apartment);
+                </code>
+            </div>
+                
+            <!--my education-->
+            <div class="my-education-section">
+                <h2 class="main-content-title">Education</h2>
+                <h4 class="my-work-experience-company">GoIT</h4>
+                <h4 class="my-work-experience-position">Full-Stack Developer</h4>
+                <p class="my-work-experience-period">February 2021 - February 2022
+
+                <h4 class="my-work-experience-company">EASYSCHOOL</h4>
+                <h4 class="my-work-experience-position">I aftend private English classes</h4>
+                <p class="my-work-experience-period">March 2022 - until now            
+            
+             <!--Languages-->
+                <h2 class="main-content-title">Language</h2>
+                <p class="languages"> <span class="my-projects-item__p">English</span>  - Intermediate</p> 
+            </div>
+    </div>
+</main>
+    <aside class="sidebar-section">
+            <img src="./image/photo_2021-09-08_17-23-37.jpg" width="370" height="500" alt="my photo">
+            <!--contacts section-->
+            <div class="contacts-section">
+                <h3 class="sidebar-title">Contacts:</h3>
+                <div><a class="contacts-section-link" href="mailto:vitalina_oleksienko@yahoo.com">vitalina_oleksienko@yahoo.com</a></div>
+                <div><a class="contacts-section-link" href="https://github.com/Vitalina-Oleksiienko" target="_blank">https://github.com/Vitalina-Oleksiienko</a></div>
+                <div><a class="contacts-section-link" href="https://www.linkedin.com/in/vitalina-oleksiienko-9527a11b3/" target="_blank">https://www.linkedin.com/in/vitalina-oleksiienko</a></div>
+            </div>
+            <!--tech skill section-->
+            <div class="tech-skill-section">
+                <h3 class="sidebar-title"> Tech Skills:</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">HTML, CSS, SASS, SCSS</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">GIT, GitHub</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">JavaScript</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">WebPack, Parcel</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">BEM, DOM, OOP</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">REST API</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Vue.js</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Nuxt.js</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Figma</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Jira</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Bitbucket</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">React.js</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Node.js</span></li>
+                </ul>
+            </div>
+            <div class="tech-skill-section">
+                <h3 class="sidebar-title">Methodologies:</h3>
+                <ul class="tech-skills-list">
+                <li class="tech-skills-item"> <span class="tech-skills-item-text">Scrum</span></li>
+                <li class="tech-skills-item"> <span class="tech-skills-item-text">Agile</span></li>
+                <li class="tech-skills-item"> <span class="tech-skills-item-text">Lean</span></li>
+                </ul>
+            </div>
+            <!--soft skill section-->
+            <div class="soft-skill-section">
+                <h3 class="sidebar-title">Soft Skills:</h3>
+                <ul class="soft-skills-list">
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Adaptability</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Self-motivation</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Responsible</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Teamwork</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Team management</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Communication skills</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Time management</span></li>
+                </ul>
+            </div>
+    </aside>
+</div>
+
+    <footer class="container">
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo"></a> 
+    </footer>
 </body>
 </html>
